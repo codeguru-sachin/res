@@ -82,7 +82,7 @@
   <!--Samosa chaat-->
   <div class="item Chaat" data-name="Samosa Chaat">
     <h3>Samosa Chaat ₹50</h3>
-    <img src="" alt="">
+    <img src="samosa chaat.jpg" alt="">
     <button onclick="changeQty('Samosa Chaat',50,-1)">-</button>
     <span id="Samosa ChaatQty">0</span>
     <button onclick="changeQty('Samosa Chaat',50,1)">+</button>
@@ -99,6 +99,8 @@
     <span id="Steam Veg MomoQty">0</span>
     <button onclick="changeQty('Steam Veg Momo',80,1)">+</button>
   </div>
+
+
   <div class="item steam" data-name="Veggies">
     <h3>Veggies ₹100</h3>
     <img src="" alt="">
@@ -106,6 +108,7 @@
     <span id="VeggiesQty">0</span>
     <button onclick="changeQty('Veggies',100,1)">+</button>
   </div>
+
   <div class="item steam" data-name="Paneer Momo">
     <h3>Paneer Momo ₹179</h3>
     <img src="paneer momo.jpg" alt="">
@@ -113,6 +116,7 @@
     <span id="Paneer MomoQty">0</span>
     <button onclick="changeQty('Paneer Momo',179,+1)">+</button>
   </div>
+
   <div class="item steam" data-name="Veg/Corn Cheese">
     <h3>Veg/Corn Cheese ₹199</h3>
     <img src="" alt="">
@@ -120,6 +124,7 @@
     <span id="Veg/Corn CheeseQty">0</span>
     <button onclick="changeQty('Veg/Corn Cheese',199,1)">+</button>
   </div>
+
   <div class="item steam" data-name="chicken momo">
     <h3>Chicken Momo ₹150</h3>
     <img src="chicken momo.jpg" alt="">
@@ -127,6 +132,7 @@
     <span id="Chicken momoQty">0</span>
     <button onclick="changeQty('Chicken momo',150,1)">+</button>
   </div>
+
   <div class="item steam" data-name="Chicken cheese">
     <h3>Chicken Cheese ₹180</h3>
     <img src="chicken- momo.png" alt="">
@@ -144,119 +150,151 @@
     <span id="Cheese MomoQty">0</span>
     <button onclick="changeQty('Cheese Momo',120,1)">+</button>
   </div>
-  <div class="item special" data-name="Malai veg-Momo">
-    <h3>Malai veg-Momo</h3>
-    <img src="" alt="">
-    <button onload="changeQty('Malai veg-Momo',30-1)">-</button>
-    <span id="Malai veg-momoQnty">0</span>
-    <button onclick="changeQty('Malai veg-Momo',30+1)">+</button>
-  </div>
-  <div class="item special" data-name="Malai paneer Momo">
-    <h3>Malai paneer Momo</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Malai paneer Momo',30-1)">-</button>
-    <span id="Malai paneer Momo">0</span>
-    <button onclick="changeQty('Malai paneer Momo',30-1)">+</button>
-  </div>
+
+  <div class="item special" data-name="Malai Veg Momo">
+  <h3>Malai Veg Momo ₹120</h3>
+  <img src="Malai Paneer Momo.png" alt="">
+  <button onclick="changeQty('Malai Veg Momo',120,-1)">-</button>
+  <span id="Malai Veg MomoQty">0</span>
+  <button onclick="changeQty('Malai Veg Momo',120,1)">+</button>
+</div>
+<div class="item special" data-name="Malai Paneer Momo">
+  <h3>Malai Paneer Momo ₹150</h3>
+  <img src="Malai Paneer Momo.png" alt="">
+  <button onclick="changeQty('Malai Paneer Momo',150,-1)">-</button>
+  <span id="Malai Paneer MomoQty">0</span>
+  <button onclick="changeQty('Malai Paneer Momo',150,1)">+</button>
+</div>
   <div class="item special" data-name="Malai corn cheese Momo">
-    <h3>Malai corn cheese Momo</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Malai corn cheese Momo',30-1)">-</button>
-    <span id="Malai corn cheese Momo">0</span>
-    <button onclick="changeQty('Malai corn cheese Momo',30-1)">+</button>
+    <h3>Malai corn cheese Momo ₹180</h3>
+    <img src="Malai corn cheese momo.jpg" alt="">
+    <button onclick="changeQty('Malai corn cheese Momo',180,-1)">-</button>
+    <span id="Malai corn cheese MomoQty">0</span>
+    <button onclick="changeQty('Malai corn cheese Momo',180,1)">+</button>
   </div>
-  <div class="item special" data-name="Malai chicken Momo">
-    <h3>Malai Chicken Momo</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Malai chicken Momo',30-1)">-</button>
-    <span id="Malai chicken Momo">0</span>
-    <button onclick="changeQty('Malai chicken Momo',30-1)">+</button>
-  </div>
-  <div class="item special" data data-name="Chilli veg Momo">
-    <h3>Chilli Veg Momo</h3>
-    <img src="" alt="">
-    <button onclick="('Chilli veg Momo',30-1)">-</button>
-    <span id="Chilli veg Momo">0</span>
-    <button onclick="('Chilli veg Momo',30-1)">+</button>
-  </div>
+ <div class="item special" data-name="Chilli Veg Momo">
+  <h3>Chilli Veg Momo ₹130</h3>
+  <img src="veg-chili-momos.jpg" alt="">
+  <button onclick="changeQty('Chilli Veg Momo',130,-1)">-</button>
+  <span id="Chilli Veg MomoQty">0</span>
+  <button onclick="changeQty('Chilli Veg Momo',130,1)">+</button>
+</div>
+
+ 
   <div class="item special" data-name="Chilli paneer Momo">
-    <h3>Chilli paneer Momo</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Chilli Paneer Momo',30-1)">-</button>
-    <span id="Chilli Paneer Momo">0</span>
-    <button onclick="changeQty('Chilli paneer Momo')">+</button>
+    <h3>Chilli paneer Momo ₹130</h3>
+    <img src="chilli paneer momo.png" alt="">
+    <button onclick="changeQty('Chilli Paneer Momo',130,-1)">-</button>
+    <span id="Chilli paneer MomoQty">0</span>
+    <button onclick="changeQty('Chilli paneer Momo',130,1)">+</button>
   </div>
   <div class="item special" data-name="Chilli corn Cheese Momo">
-    <img src="" alt="">
     <h3>Chilli corn cheese Momo</h3>
-    <button onclick="changeQty('Chilli corn cheese Momo',30-1)">-</button>
-    <span id="Chilli corn cheese Momo">0</span>
-    <button onclick="changeQty('Chillicorn cheese Momo')">+</button>
+    <img src="chilli corn cheese momo.jpg" alt="">
+    <button onclick="changeQty('Chilli corn Cheese Momo',130,-1)">-</button>
+    <span id="Chilli corn Cheese MomoQty">0</span>
+    <button onclick="changeQty('Chilli corn Cheese Momo',130,1)">+</button>
   </div>
   <div class="item special" data-name="Chilli Chicken Momo">
-    <h3>Chilli Chicken Momo</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Chilli chicken Momo',30-1)">-</button>
-    <span id="Chilli Chicken Momo">0</span>
-    <button onclick="changeQty('Chilli Chicken Momo',30-1)">+</button>
+    <h3>Chilli Chicken Momo ₹150</h3>
+    <img src="chilli chicken momo.png" alt="">
+    <button onclick="changeQty('Chilli Chicken Momo',150,-1)">-</button>
+    <span id="Chilli Chicken MomoQty">0</span>
+    <button onclick="changeQty('Chilli Chicken Momo',150,1)">+</button>
 
   </div>
-  <div class="item special" data-name="Pizza veg Momo">
-    <h3>Pizza veg Momo</h3>
-    <img src="" alt="">
-    <button oncanplay="changeQty('Pizza veg Momo',30-1)">-</button>
-    <span id="Pizza veg Momo">0</span>
-    <button onclick="changeQty('Pizza veg Momo',30-1)">+</button>
-  </div>
+  <div class="item special" data-name="Pizza Veg Momo">
+  <h3>Pizza Veg Momo ₹150</h3>
+  <img src="pizza veg momo.webp" alt="">
+  <button onclick="changeQty('Pizza Veg Momo',150,-1)">-</button>
+  <span id="Pizza Veg MomoQty">0</span>
+  <button onclick="changeQty('Pizza Veg Momo',150,1)">+</button>
+</div>
+
   <div class="item special" data-name="Pizza paneer Momo">
     <h3>Pizza Paneer Momo</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Pizza paneer Momo',30-1)">-</button>
-    <span id="Pizza Paneer Momo">0</span>
-    <button onclick="changeQty('Pizza Paneer Momo',30-1)">+</button>
+    <img src="pizza paneer momo.png" alt="">
+    <button onclick="changeQty('Pizza paneer Momo',150,-1)">-</button>
+    <span id="Pizza paneer MomoQty">0</span>
+    <button onclick="changeQty('Pizza paneer Momo',150,1)">+</button>
   </div>
   <div class="item special" data-name="Pizza corn cheese Momo">
-    <h3>Pizza corn cheese Momo</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Pizza corn veg Momo',30-1)">-</button>
-    <span id="Pizza corn cheese Momo">0</span>
-    <button onclick="changeQty('Pizza corn cheese Momo',30-1)">+</button>
+    <h3>Pizza corn cheese Momo ₹150</h3>
+    <img src="pizza corn cheese momo.png" alt="">
+    <button onclick="changeQty('Pizza corn cheese Momo',150,-1)">-</button>
+    <span id="Pizza corn cheese MomoQty">0</span>
+    <button onclick="changeQty('Pizza corn cheese Momo',150,1)">+</button>
   </div>
-  <div class="ite special" data-name="Pizza Chicken Momo">
-    <h3>Pizza Chicken Momo</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Pizza Chicken Momo',30-1)">-</button>
-    <span id="Pizza Chicken Momo">0</span>
-    <button onclick="changeQty('Pizza Chicken Momo',30-1)">+</button>
+  <div class="item special" data-name="Pizza Chicken Momo">
+    <h3>Pizza Chicken Momo ₹157</h3>
+    <img src="pizza chicken momo.png" alt="">
+    <button onclick="changeQty('Pizza Chicken Momo',157,-1)">-</button>
+    <span id="Pizza Chicken MomoQty">0</span>
+    <button onclick="changeQty('Pizza Chicken Momo',30,-1)">+</button>
   </div>
   <!-- Paratha -->
-   <div class="item Paratha" data-name="Aloo/Onion Paratha">
-    <h3>Aloo/Onion Paratha</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Aloo/Onion Paratha',30-1)">-</button>
-    <span id="Aloo/Onion Paratha">0</span>
-    <button onclick="changeQty('Aloo/Onion Paratha',30-1)">+</button>
+   <div class="item Paratha" data-name="Aloo/Onion aratha">
+    <h3>Aloo/Onion Paratha ₹30</h3>
+    <img src="Allo onion paratha.png" alt="">
+    <button onclick="changeQty('Aloo/Onion Paratha',30,-1)">-</button>
+    <span id="Aloo/Onion ParathaQty">0</span>
+    <button onclick="changeQty('Aloo/Onion Paratha',30,1)">+</button>
    </div>
    <div class="item Paratha" data-name="Gobi/Muli Paratha">
     <h3>Gobi/Muli Paratha ₹159</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Gobi/Muli Paratha',30-1)">-</button>
-    <span id="Gobi/Muli Paratha">0</span>
-    <button onclick="changeQty('Gobi/Muli Paratha',30-1)">+</button>
+    <img src="gobimuli paratha.png" alt="">
+    <button onclick="changeQty('Gobi/Muli Paratha',159,-1)">-</button>
+    <span id="Gobi/Muli ParathaQty">0</span>
+    <button onclick="changeQty('Gobi/Muli Paratha',159,1)">+</button>
    </div>
    <div class="item Paratha" data-name="Corn/Veggies Paratha">
     <h3>Corn/Veggies Paratha ₹179</h3>
-    <img src="" alt="">
-    <button onclick="changeQty('Corn/Veggies Paratha',30-1)">-</button>
-    <span id="Corn/Veggies Paratha">0</span>
-    <button onclick="changeQty('Corn/Veggies Paratha',30-1)">+</button>
+    <img src="Corn vaggies paratha.png" alt="">
+    <button onclick="changeQty('Corn/Veggies Paratha',179,-1)">-</button>
+    <span id="Corn/Veggies ParathaQty">0</span>
+    <button onclick="changeQty('Corn/Veggies Paratha',179,1)">+</button>
    </div>
    <div class="item Paratha" data-name="Cheese Paratha">
-    <h3>Cheese Paratha</h3>
-    <img src="" alt="">
+    <h3>Cheese Paratha ₹30</h3>
+    <img src="cheese paratha.png" alt="">
     <button onclick="changeQty('Cheese Paratha',30-1)">-</button>
     <span id="Cheese Paratha">0</span>
     <button onclick="changeQty('Cheese Paratha',30-1)">+</button>
+   </div>
+   <div class="item Crispy Momo" data-name="Vaggies Momo">
+    <h3>Vaggies Momo ₹259</h3>
+    <img src="vaggies momo.png" alt="">
+    <button onclick="changeQty('Vaggies Momo',259,-1)">-</button>
+    <span id="Vaggies MomoQty">0</span>
+    <button onclick="changeQty('Vaggies Momo',259,1)">+</button>
+   </div>
+   <div class="item Crispy Momo" data-name="Paneer Momo">
+    <h3>Paneer Momo ₹279</h3>
+    <img src="paneer momo.png" alt="">
+    <button onclick="changeQty('Paneer Momo',279,-1)">-</button>
+    <span id="Paneer MomoQty">0</span>
+    <button onclick="changeQty('Paneer Momo',279,1)">+</button>
+   </div>
+   <div class="item Crispy Momo" data-name="Veg/Corn Cheese Momo">
+    <h3>Veg/Corn Cheese Momo ₹299</h3>
+    <img src="veg corn cheese momo.png" alt="">
+    <button onclick="changeQty('Veg/Corn Cheese Momo',299,-1)">-</button>
+    <span id="Veg/Corn Cheese MomoQty">0</span>
+    <button onclick="changeQty('Veg/Corn Cheese Momo',299,1)">+</button>
+   </div>
+   <div class="item Crispy Momo" data-name="Chicken Momo">
+    <h3>Chicken Momo ₹300</h3>
+    <img src="chicken momo.png" alt="">
+    <button onclick="changeQty('Chicken Momo',300,-1)">-</button>
+    <span id="Chicken MomoQty">0</span>
+    <button onclick="changeQty('Chicken Momo',300,1)">+</button>
+   </div>
+   <div class="item Crispy Momo" data-name="Chicken Cheese Momo">
+    <h3>Chicken Cheese Momo ₹320</h3>
+    <img src="chicken cheese momo.png" alt="">
+    <button onclick="changeQty('Chicken Cheese Momo',320,-1)">-</button>
+    <span id="Chicken Cheese MomoQty">0</span>
+    <button onclick="changeQty('Chicken Cheese Momo',320,1)">+</button>
    </div>
    
 
