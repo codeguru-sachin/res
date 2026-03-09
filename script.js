@@ -4,6 +4,17 @@ const WHATSAPP_NUMBER = "916003376741";
 
 let total = 0;
 let cart = {};
+function filterSection(category) {
+    const items = document.querySelectorAll(".item");
+
+    items.forEach(item => {
+      if (category === "all" || item.classList.contains(category)) {
+        item.style.display = "block";
+      } else {
+        item.style.display = "none";
+      }
+    });
+  }
 
 window.onload = function () {
   const tableText = document.getElementById("tableText");
