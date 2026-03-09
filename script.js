@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const tableNo = params.get("table");
-const WHATSAPP_NUMBER = "916003376741";
+const WHATSAPP_NUMBER = "918402881712";
 
 let total = 0;
 let cart = {};
